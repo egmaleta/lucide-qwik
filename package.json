@@ -1,7 +1,23 @@
 {
-  "name": "my-qwik-library-name",
+  "name": "lucide-qwik",
   "version": "0.0.1",
-  "description": "Create a reusable Qwik component library",
+  "description": "Lucide icon library package for Qwik applications",
+  "author": {
+    "name": "Eduardo García Maleta",
+    "email": "egmaleta@proton.me",
+    "url": "https://github.com/egmaleta"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egmaleta/lucide-qwik.git"
+  },
+  "license": "LICENSE",
+  "keywords": [
+    "icon",
+    "icons",
+    "lucide",
+    "qwik"
+  ],
   "main": "./lib/index.qwik.mjs",
   "qwik": "./lib/index.qwik.mjs",
   "types": "./lib-types/index.d.ts",
