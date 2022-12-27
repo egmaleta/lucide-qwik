@@ -1,4 +1,4 @@
-import { IconProps } from "./types";
+import { IconProps } from "./icon-props";
 
 export default {
   size: 24,

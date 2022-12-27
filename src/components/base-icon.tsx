@@ -1,6 +1,6 @@
 import { component$, Slot } from "@builder.io/qwik";
 
-import { BaseIconProps } from "../types";
+import { BaseIconProps } from "../icon-props";
 import fallbackProps from "../default-props";
 
 export default component$(({

@@ -41,7 +41,7 @@ function buildExportLine(name, iconsRelPath) {
 async function build() {
   // build icons
   const iconsPath = "./src/components/icons/";
-  const build = buildIcon("../../types", "../base-icon")
+  const build = buildIcon("../../icon-props", "../base-icon")
 
   await mkdir(iconsPath, {recursive: true});
   await Promise.all(Object.keys(iconNames).map(k => {
